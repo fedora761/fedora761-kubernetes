@@ -27,7 +27,7 @@ kubectl get pods -n kube-system
 kubectl get pods --all-namespaces
 
 kubectl get pods 
-- # 디폴드값에서 조회
+- #디폴드값에서 조회
 
 다른 네임스페이스에 pod실행
 - kubectl create -f nginx.yaml -n blue
@@ -57,10 +57,10 @@ kubectl get pods
 - kubectl config use-context NAME 
 
 - kubectl config use-context blue@kubernetes
--# 네임스페이스 변경함
+- #네임스페이스 변경함
 - kubectl config current-context
 - kubectl get pods 
--# blue pods만 나옴
+- #blue pods만 나옴
 - kubectl get pods -n default
 
 
