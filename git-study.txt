@@ -1,0 +1,7 @@
+git config --global user.name  test #이름 삽입 최초 1회 실행
+git config --global user.email test@test.com #메일주소 삽입 최초 1회 실행
+git init #저장소 설정 해당 디렉토리 생성시 .git 폴더 생성
+git status #git 상태 확인
+git add . filename #git에서 추적할 파일 등록 
+git commit -m "message" #commit 메세지 입력
+git log #commit log 확인
