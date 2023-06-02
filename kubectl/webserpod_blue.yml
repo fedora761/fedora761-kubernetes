@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: webserver3
+  name: webserver3
+  namespace: default
+spec:
+  containers:
+  - image: nginx:1.14
+    name: webserver
+    ports:
+    - containerPort: 80
