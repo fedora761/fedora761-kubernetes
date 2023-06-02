@@ -32,7 +32,7 @@ kubectl get pods
 다른 네임스페이스에 pod실행
 - kubectl create -f nginx.yaml -n blue
 - kubectl create -f nginx.yaml -n orange
-# -n: 네임스페이스에서 실행
+-# -n: 네임스페이스에서 실행
 
 
 다른 네임스페이스 조회
